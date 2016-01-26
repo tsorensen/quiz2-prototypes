@@ -1,0 +1,25 @@
+{
+  "name": "quiz1-array-prototype-methods",
+  "version": "0.0.0",
+  "description": "",
+  "private": true,
+  "scripts": {
+    "start": "npm test",
+    "test": "mocha",
+    "pretest": "npm i"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dgm-ria-spring-2015/quiz1-array-prototype-methods.git"
+  },
+  "author": "ksmithut",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dgm-ria-spring-2015/quiz1-array-prototype-methods/issues"
+  },
+  "homepage": "https://github.com/dgm-ria-spring-2015/quiz1-array-prototype-methods#readme",
+  "dependencies": {
+    "chai": "^3.4.1",
+    "mocha": "^2.3.4"
+  }
+}
