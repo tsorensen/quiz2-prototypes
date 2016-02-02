@@ -167,7 +167,7 @@ username is given, or `null` if no user was found.
 
 ```js
 let user = new User('myusername', 'mypassword');
-console.log(User.find('myusername') === user); // true
+console.log(User.find('myusername') === user); // User {}
 console.log(User.find('otherusername')); // null
 ```
 
