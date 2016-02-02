@@ -183,7 +183,7 @@ password was correct, return the user object.
 ```js
 let user = new User('myusername', 'mypassword');
 
-User.authenticate('myusername', 'mypassword'); // true
+User.authenticate('myusername', 'mypassword'); // User {}
 User.authenticate('myusername', 'notmypassword'); // false
 User.authenticate('notmyusername', 'mypassword'); // false
 ```
