@@ -25,14 +25,6 @@ User.prototype.authenticate = function(password) {
   return bcrypt.compareSync(password, this.password);
 };
 
-// User.find = function(username) {
-//   var foundUser = users.find(function(user) {
-//     return user.username  === username;
-//   });
-//
-//   return foundUser || null;
-// };
-
 User.find = function(username) {
   return usernameIndex[username] || null;
 };
@@ -44,7 +36,7 @@ User.authenticate = function(username, password) {
 
   var validPassword = user.authenticate(password);
 
-  if(!validPassword) { return user; }
+  if(validPassword) { return user; }
 
   return false;
 };
